@@ -70,8 +70,3 @@ def generate_heatmap_image(original_image_pil, cam, alpha=0.4):
     
     superimposed_img = cv2.addWeighted(img_np, 1 - alpha, heatmap, alpha, 0)
     return superimposed_img
-#     heatmap = torch.mean(activation, dim=0).squeeze()
-#     heatmap = np.maximum(heatmap.detach().cpu().numpy(), 0)
-#     heatmap /= np.max(heatmap) if np.max(heatmap) != 0 else 1
-
-#     return heatmap
