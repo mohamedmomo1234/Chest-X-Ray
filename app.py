@@ -121,6 +121,5 @@ elif role == "الطبيب (Doctor Dashboard)":
 
 # warning academy
 st.markdown("---")
-st.caption("⚠️ **تنبيه إخلاء مسؤولية أكاديمي:** هذا النظام هو نموذج أولي لمشروع تخرج جامعي (Clinical Decision Support Prototype) وليس بديلاً عن التشخيص الطبي البشري المتخصص.")
+st.caption("⚠️ **تنبيه إخلاء مسؤولية أكاديمي:** هذا النظام هو نموذج تعليمى    (Clinical Decision Support Prototype) وليس بديلاً عن التشخيص الطبي البشري المتخصص.")
 
-# imp
