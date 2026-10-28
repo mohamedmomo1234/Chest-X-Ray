@@ -24,7 +24,7 @@ def load_model(model_path):
     model.eval()
     return model
 
-#  Grad-CAM (محدث ليتوافق مع Output = 1)
+#  Grad-CAM 
 class GradCAM:
     def __init__(self, model, target_layer):
         self.model = model
