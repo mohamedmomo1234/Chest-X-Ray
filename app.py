@@ -21,11 +21,10 @@ st.sidebar.title("🏥 نظام تشخيص الصدر الذكي")
 role = st.sidebar.selectbox("اختر لوحة التحكم (Role):", ["المريض (Patient Dashboard)", "الطبيب (Doctor Dashboard)"])
 
 st.sidebar.markdown("---")
-st.sidebar.info("💡 مشروع تخرج - نظام مساعد ذكي لتحليل أشعة الصدر وتقديم التقارير الطبية.")
+st.sidebar.info("💡   نظام مساعد ذكي لتحليل أشعة الصدر وتقديم التقارير الطبية.")
 
 
 # 1. (Patient Dashboard)
-
 if role == "المريض (Patient Dashboard)":
     st.title("👤 لوحة تحكم المريض - فحص الأشعة والأعراض")
     st.write("أدخل بياناتك الصحية واقترح صورة الأشعة للحصول على تحليل مبدئي وتقرير شامل.")
