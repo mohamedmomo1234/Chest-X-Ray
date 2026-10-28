@@ -28,7 +28,7 @@ def generate_medical_report(age, gender, symptoms, model_prediction, confidence)
     4. نصائح الراحة المنزلية والمشروبات المفيدة (مثل المشروبات الدافئة، الأطعمة الداعمة للمناعة).
     5. متى يجب التوجه للطوارئ فوراً؟
     """
-    
+     
     try:
         completion = client.chat.completions.create(
         
